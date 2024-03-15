@@ -1,0 +1,230 @@
+/* Your custom css code goes here */
+
+.page-title h1, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .probootstrap-panel .panel .panel-title, .section-heading h2, .service .heading, .service.left-icon h3, h1, h2, h3, h4 {
+    margin: 1.414em 0 0.5em;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #0043ff;
+}
+
+.bordeNuevo{
+    border: #0043ff solid 1px ;
+    padding: 4px;
+    margin-top: 30px;
+    border-radius: 40px;
+    text-align: center;
+    color: #0043ff;
+    
+    
+}
+
+.probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .service .heading, .service.left-icon h3, h3 {
+    font-size: 23px;
+    text-align: left;
+}
+
+p {
+    margin: 0px 28px 10px;
+    text-align:justify;
+}
+
+.img-border{
+    color: #0043ff !important;
+
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 6px 9px 6px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1;
+    color: #0043ff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: transparent;
+    border-radius: 22px;
+    border: #0043ff solid 1px;
+    margin-top: 14px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #efefef;
+    box-shadow: black;
+}
+
+.Fondo {
+    background-image: url(../assets/backnuevo.png);
+    background-size: cover;
+    /* margin-bottom: 200px; */
+    padding-top: 101px;
+    padding-bottom: 233px;
+}
+
+@media screen and (max-width: 768px) {
+    .Fondo {
+        padding: 20% 10%; /* Adjust padding for smaller screens */
+        padding-bottom: 20%; /* Adjust padding for smaller screens */
+    }
+}
+
+.probootstrap-section {
+    padding: 1em 0;
+    position: relative;
+    z-index: 2;
+}
+
+.page-title h1, h1 {
+    margin-top: 0;
+    font-size: 2em;
+    padding-top: 102px;
+}
+
+
+.Fondo1{
+
+    background-image: url(../assets/estre.png);
+    background-size: cover;
+    /* margin-bottom: 200px; */
+    padding: 100px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .Fondo1 {
+        padding: 10% 10%; /* Adjust padding for smaller screens */
+        padding-bottom: 20%; /* Adjust padding for smaller screens */
+    }
+}
+
+a:hover {
+    color: #46b199;
+    text-decoration: none!important;
+}
+
+.probootstrap-panel .panel .panel-title, h4 {
+    font-size: 21px;
+}
+
+
+.Fondo2{
+
+    background-image: url(../assets/estre2.png);
+    background-size:contain;
+    /* margin-bottom: 200px; */
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .Fondo2 {
+        padding: 10% 10%; /* Adjust padding for smaller screens */
+        padding-bottom: 20%; /* Adjust padding for smaller screens */
+    }
+}
+
+
+.Fondo3 {
+    background-image: url(../assets/t2-04.png);
+    background-size: cover;
+    /* margin-bottom: 200px; */
+    padding-top: 101px;
+    padding-bottom: 228px;
+}
+
+@media screen and (max-width: 768px) {
+    .Fondo3 {
+        padding: 20% 10%; /* Adjust padding for smaller screens */
+        padding-bottom: 20%; /* Adjust padding for smaller screens */
+    }
+}
+
+
+.Fondo4 {
+    background-image: url(../assets/hand-06.png);
+    background-size: cover;
+    /* margin-bottom: 200px; */
+    padding-top: 101px;
+    padding-bottom: 296px;
+}
+
+@media screen and (max-width: 768px) {
+    .Fondo4 {
+        padding: 20% 10%; /* Adjust padding for smaller screens */
+        padding-bottom: 20%; /* Adjust padding for smaller screens */
+    }
+}
+
+
+.probootstrap-panel .panel .panel-heading a[aria-expanded=true] {
+    color: #0043ff;
+}
+
+.probootstrap-panel .panel .panel-heading {
+    background: 0 0;
+    border-bottom: 1px solid #0043ff;
+}
+
+.probootstrap-panel .panel .panel-heading a {
+    padding-top: 10px!important;
+    padding-bottom: 15px!important;
+    display: block;
+    color: #0043ff;
+    position: relative;
+}
+
+.btn.btn-primary {
+    border: 1px solid #0043ff;
+    background: none;
+    color: #0043ff;
+    text-transform: none;
+    border-radius: 100px;
+    padding: 9px 16px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.btn.btn-primary:hover {
+    background: #0043ff;
+    color: #d8d8d8;
+    border: 1px solid #0043ff;
+    border-radius: 100px;
+    padding: 9px 16px;
+    margin-top: 35px;
+    font-size: 14px;
+
+    
+}
+
+.probootstrap-panel .panel .panel-heading a:hover {
+    color: #46b199;
+}
+
+
+.btn.btn-primary:active, .btn.btn-primary:focus {
+    outline: 0;
+    border: 2px solid #0043ff;
+    background-color: #0043ff;
+}
+
+
+.audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    background-color: #efefef !important;
+}
+
+
